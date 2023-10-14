@@ -1,0 +1,19 @@
+{
+	"name": "southan/wp-cli-utils",
+	"type": "wp-cli-package",
+	"description": "Extra utilities for WP CLI commands",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alex Southan"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WP_CLI_Utils\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.4"
+	}
+}
